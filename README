@@ -1,3 +1,5 @@
 The files inside this repository shows how to initiate the UART1 communication of thw STM32F103c8 (bluepill), configurate the baudrate, parity bit, databits, etc.
 Also there are 2 functions in which i made a simple iteration over a string so i can later send each character (Byte)  of data via UART1.
-I also activated the GPIO13 as output
+I also activated the GPIO13 as output (LED).
+I configured the clock to work to 72 MHz.
+Im using Libopencm3 opensource library for the project.
